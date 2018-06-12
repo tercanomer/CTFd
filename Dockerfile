@@ -14,7 +14,7 @@ RUN for d in CTFd/plugins/*; do \
       fi; \
     done;
 
-RUN chmod +x /opt/CTFd/docker-entrypoint.sh
+RUN ["chmod","+x","/opt/CTFd/docker-entrypoint.sh"]
 
 EXPOSE 80
 
