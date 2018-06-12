@@ -18,4 +18,4 @@ RUN chmod +x /opt/CTFd/docker-entrypoint.sh
 
 EXPOSE 8000
 
-ENTRYPOINT ["/opt/CTFd/docker-entrypoint.sh"]
+CMD ["/opt/CTFd/docker-entrypoint.sh"]
